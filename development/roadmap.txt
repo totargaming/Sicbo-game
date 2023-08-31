@@ -1,0 +1,44 @@
+-> base game: big small odd even (base.m)
+       -all pay out 1:1
+       -test 4 case
+       -test balance calc
+       -test roll dice randomizability
+       -have idea to store all payout according to bets choice position
+       -create loop for play game repeatly
+        -add option to quit game
+       -use total as base mechanism
+-> advance (advance.m)
+       - more diverse and bigger payouts
+       - add triple, pair, triple random and combination
+            -each bets have input of desired values which affect payouts
+                -prevent user to input invalid or rule broken input
+       - test 4 case each with various outcomes
+       - demonstrate dices in graph (advance_with_dice.m)
+            -add function for display as plotting graph
+            -display real time random number as dices
+            -analize where to put dice in code
+       - upgrage visual of dice simulation
+            -use external code to convert graph into box shaped 
+            -add label on each dices and their value on them
+-> full game (menuTest.m)
+       - combine 2 game modes in to 1 programme
+       - refactor code to avoid duplication or invalid variables
+       - add 2 more bets choice: total of three, single number
+            -design and research for payouts 
+            -each bets have input of desired values which affect payouts
+                -prevent user to input invalid or rule broken input
+       - separate 2 game mode (basic and advance)
+       - add total figure beside 3 dices in display( external code)
+       - add menu for play and exit game
+       - encapsulate game into function
+-> reviewing and refactoring (fullgame.m)
+       -change prompt layout so that small screen user can read prompt
+       -add prompt to prevent wrong input of choices
+       -refactor names after name convention 
+       -add comments
+       -add desciption option in menu
+       -add clc for more neat game experience
+       -troubleshooting experience with wrong input
+       -rewrite all the wrong input prevention from if to while
+        
+       
