@@ -1,0 +1,81 @@
+- Test Case ID: TC01
+   - Test Case Description: Test if the program can handle invalid bet amounts
+   - Test Data:
+       - Bet index: 1
+       - Bet amount: 200
+       - Balance: 100
+       - Dice: [1 2 3]
+   - Expected Output: The program should display a message saying “You do not have enough balance to place this bet.” and ask for another input.   
+   - Test Procedure:
+       - Step 1: Run the program and select option 1 to play.
+       - Step 2: Enter 1 as the bet index to choose Pair.
+       - Step 3: Enter 200 as the bet amount.
+       - Step 4: Observe the output on the command window.
+       - Step 5: Verify if the output matches the expected output.
+       - Step 6: Record any errors or defects that are found.
+   - Test Result:
+   - Pass/Fail: Pass
+   - Actual Output: The program displayed a message saying “You do not have enough balance to place this bet.” and asked for another input.
+
+- Test Case ID: TC02
+  - Test Case Description: Test if the program can handle invalid bet indices
+  - Test Data: 
+    - Bet index: 5
+    - Bet amount: 50
+    - Balance: 100
+    - Dice: [1 2 3]
+  - Expected Output: The program should display an error message and ask for another input.
+  - Test Procedure:
+    - Step 1: Run the program and select option 1 to play.
+    - Step 2: Enter 5 as the bet index.
+    - Step 3: Observe the output on the command window.
+    - Step 4: Verify if the output matches the expected output.
+    - Step 5: Record any errors or defects that are found.
+  - Test Result:
+    Pass/Fail: Pass
+    Actual Output: The program displayed an error message saying “Index exceeds the number of array elements (4).” and asked for another input.
+
+- Test Case ID: TC03
+  - Test Case Description: Test if the program can handle invalid pair numbers
+  - Test Data: 
+    - Bet index: 1
+    - Bet amount: 50
+    - Pair number: 7
+    - Balance: 100
+    - Dice: [1 2 3]
+  - Expected Output: The program should display an error message and ask for another input.
+  - Test Procedure:
+    - Step 1: Run the program and select option 1 to play.
+    - Step 2: Enter 1 as the bet index to choose Pair.
+    - Step 3: Enter 50 as the bet amount.
+    - Step 4: Enter 7 as the pair number.
+    - Step 5: Observe the output on the command window.
+    - Step 6: Verify if the output matches the expected output.
+    - Step 7: Record any errors or defects that are found.
+  - Test Result:
+    Pass/Fail: Pass
+    Actual Output: The program displayed an error message saying “You entered an invalid number.” and asked for another input.
+
+- Test Case ID: TC04
+  - Test Case Description: Test if the program can handle invalid triple numbers
+  - Test Data: 
+    - Bet index: 2
+    - Bet amount: 50
+    - Triple number: 0
+    - Balance: 100
+    - Dice: [1,2,3]
+   Expected Output : The program should display an error message and ask for another input. 
+   Test Procedure :
+   Step1 : Run the program and select option to play. 
+   Step2 : Enter bet index as '2' to choose Triple. 
+   Step3 : Enter bet amount as '50'. 
+   Step4 : Enter triple number as '0'. 
+   Step5 : Observe the output on command window. 
+   Step6 : Verify if output matches expected output. 
+   Step7 : Record any errors or defects that are found. 
+   Test Result :
+   Pass/Fail: Pass
+   Actual Output: The program displayed an error message saying “You entered an invalid number.” and asked for another input.
+   
+
+

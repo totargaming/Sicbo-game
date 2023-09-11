@@ -19,19 +19,19 @@
             +add function for display as plotting graph
             +display real time random number as dices
             +analize where to put dice in code
-       - upgrage visual of dice simulation (diceUI.m)
-            +use external code to convert graph into box shaped 
-            +add label on each dices and their value on them
--> full game (menuCheck.m)
+       - upgrage visual of dice simulation (diceU
+            -use external code to convert graph into box shaped 
+            -add label on each dices and their value on them
+-> full game (menuTest.m)
        - combine 2 game modes in to 1 programme
        - refactor code to avoid duplication or invalid variables
        - add 2 more bets choice: total of three, single number
-            +design and research for payouts 
-            +each bets have input of desired values which affect payouts
-                *prevent user to input invalid or rule broken input
+            -design and research for payouts 
+            -each bets have input of desired values which affect payouts
+                -prevent user to input invalid or rule broken input
        - separate 2 game mode (basic and advance)
        - add total figure beside 3 dices in display( external code)
-       - add menu for play and exit game(menuCheck.m)
+       - add menu for play and exit game
        - encapsulate game into function
 -> reviewing and refactoring (fullgame.m)
        -change prompt layout so that small screen user can read prompt

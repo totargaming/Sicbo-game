@@ -1,0 +1,77 @@
+
+- Test Case ID: TC01
+  - Test Case Description: Test if the program can handle invalid bet amounts
+  - Test Data: 
+    - Bet index: 1
+    - Bet amount: 200
+    - Balance: 100
+    - Dice: [1, 2, 3]
+  - Expected Output: The program should display a message saying "You do not have enough balance to place this bet." and ask for another input.
+  - Test Procedure:
+    - Step 1: Run the program and select option 1 to play.
+    - Step 2: Enter 1 as the bet index to choose Big.
+    - Step 3: Enter 200 as the bet amount.
+    - Step 4: Observe the output on the command window.
+    - Step 5: Verify if the output matches the expected output.
+    - Step 6: Record any errors or defects that are found.
+  - Test Result:
+    - Pass/Fail: Pass
+    - Actual Output: The program displayed a message saying "You do not have enough balance to place this bet." and asked for another input.
+
+- Test Case ID: TC02
+  - Test Case Description: Test if the program can handle invalid bet indices
+  - Test Data:
+    - Bet index: 5
+    - Bet amount: 50
+    - Balance: 100
+    - Dice: [1,2,3]
+   Expected Output : The program should display an error message and ask for another input. 
+   Test Procedure :
+   Step1 : Run the program and select option to play. 
+   Step2 : Enter bet index as '5'. 
+   Step3 : Observe the output on command window. 
+   Step4 : Verify if output matches expected output. 
+   Step5 : Record any errors or defects that are found. 
+   Test Result :
+   Pass/Fail : Fail
+   Actual Output : The program does not display an error message and continues to ask for bet amount. 
+  
+- Test Case ID: TC03
+  - Test Case Description: Test if the program can handle a winning bet on Odd
+  - Test Data:
+    - Bet index: 3
+    - Bet amount: 50
+    - Balance: 100
+    - Dice: [1, 3, 5]
+  - Expected Output: The program should display a message saying "You won $100.00!" and update the balance to $150.
+  - Test Procedure:
+    - Step 1: Run the program and select option 1 to play.
+    - Step 2: Enter 3 as the bet index to choose Odd.
+    - Step 3: Enter 50 as the bet amount.
+    - Step 4: Observe the output on the command window.
+    - Step 5: Verify if the output matches the expected output.
+    - Step 6: Record any errors or defects that are found.
+  - Test Result:
+    - Pass/Fail: Pass
+    - Actual Output: The program displayed a message saying "You won $100.00!" and updated the balance to $150.
+
+- Test Case ID: TC04
+  - Test Case Description: Test if the program can handle a losing bet on Even
+  - Test Data:
+    - Bet index: 4
+    - Bet amount: 50
+    - Balance: 100
+    - Dice: [1,3,5]
+   Expected Output : The program should display a message saying "You lost your bet." and update the balance to $50. 
+   Test Procedure :
+   Step1 : Run the program and select option to play. 
+   Step2 : Enter bet index as '4' to choose Even. 
+   Step3 : Enter bet amount as '50'. 
+   Step4 : Observe the output on command window. 
+   Step5 : Verify if output matches expected output. 
+   Step6 : Record any errors or defects that are found. 
+   Test Result :
+   Pass/Fail : Pass
+   Actual Output : The program displayed a message saying "You lost your bet." and updated the balance to $50. 
+
+

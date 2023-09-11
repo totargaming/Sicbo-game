@@ -65,28 +65,28 @@ while true
         % display the development
         clc
         while true
-            fprintf('**Base Game (base.m):**\n\n');
+            fprintf('**Base Game (base):**\n\n');
             fprintf('- Implement basic game modes: Big, Small, Odd, Even.\n');
             fprintf('- Set all payouts to 1:1 ratio.\n');
-            fprintf('- Test the four game cases thoroughly.\n');
-            fprintf('- Verify balance calculation accuracy.\n');
-            fprintf('- Ensure randomized dice roll mechanism is reliable.\n');
+            fprintf('- Test the four game cases thoroughly(mechanismCheck.m).\n');
+            fprintf('- Verify balance calculation accuracy(balanceCheck.m).\n');
+            fprintf('- Ensure randomized dice roll mechanism is reliable(diceRollCheck.m).\n');
             fprintf('- Store payout values based on the position of bet choices.\n');
-            fprintf('- Create a loop for repeated gameplay.\n');
-            fprintf('- Integrate an option to quit the game.\n');
-            fprintf('- Utilize the sum of dice rolls as the core gameplay mechanism.\n\n');
+            fprintf('- Create a loop for repeated gameplay(base.m).\n');
+            fprintf('- Integrate an option to quit the game(base.m).\n');
+            fprintf('- Utilize the sum of dice rolls as the core gameplay mechanism(mechanismCheck.m).\n\n');
 
-            fprintf('**Advance Game (advance.m):**\n\n');
-            fprintf('- Introduce more diverse and higher payout options.\n');
-            fprintf('- Include Triple, Pair, Random Triple, and Combination bets.\n');
+            fprintf('**Advance Game (advance):**\n\n');
+            fprintf('- Introduce more diverse and higher payout options(mechanismCheck.m).\n');
+            fprintf('- Include Triple, Pair, Random Triple, and Combination bets(advance.m).\n');
             fprintf('- Allow user input for desired values, impacting payouts.\n');
-            fprintf('- Implement input validation to prevent invalid or rule-breaking inputs.\n');
-            fprintf('- Test various outcomes for all four cases.\n');
-            fprintf('- Develop a graphical representation of dice rolls (advance_with_dice.m).\n');
+            fprintf('- Implement input validation to prevent invalid or rule-breaking inputs(mechanismCheck.m).\n');
+            fprintf('- Test various outcomes for all four cases(advance).\n');
+            fprintf('- Develop a graphical representation of dice rolls (diceUI.m).\n');
             fprintf('- Incorporate a function for displaying dice rolls as a graph.\n');
             fprintf('- Display real-time random numbers as dice values in the graph.\n');
             fprintf('- Strategically integrate dice roll simulation within the code.\n');
-            fprintf('- Enhance the visual simulation of dice rolls:\n');
+            fprintf('- Enhance the visual simulation of dice rolls(diceUI.m):\n');
             fprintf('  - Utilize external code to transform the graph into dice shapes.\n');
             fprintf('  - Label each die and display their corresponding values.\n\n');
 
@@ -99,7 +99,7 @@ while true
             fprintf('- Implement input validation to ensure adherence to rules.\n');
             fprintf('- Segregate the two game modes (basic and advance) effectively.\n');
             fprintf('- Include the total figure beside the three dice using external code.\n');
-            fprintf('- Incorporate a menu for playing and exiting the game.\n');
+            fprintf('- Incorporate a menu for playing and exiting the game(menuCheck.m).\n');
             fprintf('- Organize the game logic into encapsulated functions.\n\n');
 
             fprintf('**Review and Refactor (fullgame.m):**\n\n');
